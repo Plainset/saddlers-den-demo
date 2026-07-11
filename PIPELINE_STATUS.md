@@ -2,10 +2,11 @@
 
 Operational handoff only. `LEADS.md` and `OUTREACH_LOG.md` remain the source of truth.
 
-- Current phase: Build complete, QA complete, Review complete (independent re-verification, 2026-07-11) — PASS, no blocking or advisory issues. Committed locally. Not yet deployed or emailed.
-- Last trusted commit: initial commit (see git log in this repo) — this is the first real commit; no git repo existed before this session despite the folder's prior file contents.
+- Current phase: Build complete, QA complete, Review complete (independent re-verification, 2026-07-11) — PASS, no blocking or advisory issues. Deployed. Outreach drafted (not sent).
+- Last trusted commit: `75a1411` "Update QA/pipeline status after independent review pass" (on top of initial commit `df84470`).
 - Known untrusted state: none — all facts/assets sourced and recorded in BUILD_BRIEF.md; email re-verified live at the source URL on 2026-07-11 by both the build pass and this independent review pass.
-- Next exact action: Deploy (new public repo `saddlers-den-demo` under Plainset, push, enable Pages with source[branch]=main/source[path]=/, confirm live URL loads) and draft outreach email to chris@saddlersden.co.uk.
-- Deploy URL: not yet deployed
-- Outreach state: not yet contacted (per LEADS.md row 11, status "Building")
+- Next exact action: none remaining for this business — deployed and outreach drafted. Awaiting Alex's review/send decision on the Gmail draft.
+- Deploy URL: https://plainset.github.io/saddlers-den-demo/ (repo: Plainset/saddlers-den-demo, GitHub Pages source[branch]=main/source[path]=/, build confirmed "built" and live URL returns HTTP 200 with correct page title)
+- Outreach state: Drafted only, not sent. Draft saved in vdvalkproductions@gmail.com (confirmed active/signed-in account via account switcher before composing) — To: chris@saddlersden.co.uk, Subject: "Website idea for Saddlers Den". Verified present in Drafts folder with correct recipient/subject/body after save; confirmed absent from Sent Mail.
 - Flags for Alex: none blocking. Review independently re-ran the contrast and upscale audits across all 3 pages x 3 breakpoints (9 combinations), re-verified the `--tan-ink`/`--brass-ink` fix by hand-computing contrast ratios (6.18:1 and 6.44:1, both clear 4.5:1), re-fetched the live saddlersden.co.uk site and confirmed the pitch angle still holds (2018 footer copyright, broken base64 team photos, chris@saddlersden.co.uk all still present), and cross-checked all course pricing against the live course-information page (exact match). No fabricated facts, no image/copy mismatches, no mobile overflow, no broken images found. See QA_REPORT.md's "Independent Reviewer Re-Verification" section for full evidence. One environment-only anomaly noted there (a concurrent session's dev server briefly collided with this review's local port during a screenshot) — confirmed not a site defect, no action needed.
+- Deploy/draft session note: while composing the outreach email, Gmail's compose body briefly discarded typed text into a hidden duplicate element (known issue) and a stray click once landed on the "Sent" sidebar nav item instead of the Drafts row — in both cases this was caught and corrected before any harm; no email was sent, and the final draft was verified correct in Drafts and absent from Sent.
